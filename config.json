@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://dmoney.roadtocareer.net",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiYWRtaW5AZG1vbmV5LmNvbSIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTc3MDUzNDkwMSwiZXhwIjoxNzcwNTM4NTAxfQ.t1HfBPOVtQIPtdUA8ZpWGQWKQfh8lQInMfi3AEEEL_0",
+  "user": {
+    "id": 102577,
+    "email": "Noe.Windler65@yahoo.com",
+    "phone_number": "01833000186",
+    "role": "Customer",
+    "nid": "7635096082",
+    "password": "60jAGap05wGieb6"
+  }
+}
