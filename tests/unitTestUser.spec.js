@@ -231,6 +231,7 @@ test('Create user - Admin success', async ({ request }) => {
     // Save full user info including nid to config.json
     const user = createBody.body.user;
     setConfig("user.id", user.id);
+    setConfig("user.name", user.name);
     setConfig("user.email", user.email);
     setConfig("user.phone_number", user.phone_number);
     setConfig("user.password", user.password);

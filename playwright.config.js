@@ -27,6 +27,7 @@ export default defineConfig({
   reporter: [
     ['list'], 
     ['html', { open: 'never' }], // HTML রিপোর্ট ব্যাকআপ হিসেবে থাকবে
+    ['allure-playwright', { outputFolder: 'allure-results' }] // Allure রিপোর্ট কনফিগারেশন
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   expect: {
