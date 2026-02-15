@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:unit": "playwright test unitTestUser.spec.js",
+    "test:integration": "playwright test integrationTestUser.spec.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
