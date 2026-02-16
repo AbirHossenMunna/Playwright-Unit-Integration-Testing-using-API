@@ -59,20 +59,3 @@ jobs:
         with:
           name: integration-playwright-report
           path: playwright-report/
-
-      # 9. CI/CD Report send to Mail
-      - name: Send Email with Report Link
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          from: ${{ secrets.MAIL_USERNAME }} 
-          subject: "CI/CD Test Report"
-          body: |
-            Hello Team,
-            The CI/CD tests have completed.
-            Download/View the report here: https://github.com/${{ github.repository }}/suites/${{ github.run_id }}/artifacts
-          to: abir.maac@gmail.com
-          secure: true
