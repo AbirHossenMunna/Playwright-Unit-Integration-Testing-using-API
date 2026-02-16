@@ -74,4 +74,4 @@ jobs:
             The CI/CD tests have completed.
             Download/View the report here: https://github.com/${{ github.repository }}/suites/${{ github.run_id }}/artifacts
           to: abir.maac@gmail.com
-          secure: true    
+          secure: true
